@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+header {
+    background: #1f1e24;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.about, .skill, .education,.contact {
+    background: rgb(201, 203, 212);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h2 {
+    color: #333;
+}
+.skill-list {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #eaeaea;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    background: #333;
+    color: white;
+}
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f8f4f4;
+}
+.pos{
+    text-align: center;
+
+}
+
+.profile-text {
+    color: rgb(248, 246, 246);  /* if your header background is dark */
+}
